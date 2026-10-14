@@ -1,0 +1,6 @@
+experiment_id: peptides-grit
+
+data:
+  node_count_filter:
+    min_nodes: 0
+    max_nodes: 300

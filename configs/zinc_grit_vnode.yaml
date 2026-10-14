@@ -1,0 +1,32 @@
+experiment_id: zinc-grit-vnode
+
+model:
+  hidden_dim: 64
+  num_heads: 8
+  attn_dropout: 0.2
+  dropout: 0.0
+  pool: sum
+
+architecture:
+  num_layers: 10
+  task: regression
+
+pe:
+  type: rrwp
+  dim: 21
+
+data:
+  dataset: zinc
+  batch_size: 32
+
+training:
+  epochs: 2000
+  warmup_epochs: 50
+  lr: 0.001
+  weight_decay: 1.0e-5
+  grad_clip: 1.0
+
+vnode:
+  enabled: true
+  vnode_node_type: 28
+  vnode_edge_type: 4

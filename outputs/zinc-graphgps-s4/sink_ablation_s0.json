@@ -1,0 +1,26 @@
+{
+ "n_graphs": 500,
+ "renorm": true,
+ "conditions": {
+  "none": {
+   "mae": 0.07151603698730469,
+   "dirichlet_per_edge_final": 13.387664698485269
+  },
+  "sink": {
+   "mae": 0.0721828043460846,
+   "dirichlet_per_edge_final": 13.352787056398551
+  },
+  "random": {
+   "mae": 0.07313024252653122,
+   "dirichlet_per_edge_final": 13.385909001881512
+  },
+  "topdeg": {
+   "mae": 0.07222781330347061,
+   "dirichlet_per_edge_final": 13.411129814078793
+  },
+  "sink2": {
+   "mae": 0.07185276597738266,
+   "dirichlet_per_edge_final": 13.353399264514872
+  }
+ }
+}

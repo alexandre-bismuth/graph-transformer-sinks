@@ -1,0 +1,31 @@
+{
+ "run_dir": "outputs/zinc-grit-dot-s0",
+ "pe_type": "rrwp",
+ "sizes": {
+  "8": {
+   "uniform_score": 0.125,
+   "max_s": 0.125,
+   "max_abs_deviation": 0.0
+  },
+  "12": {
+   "uniform_score": 0.08333333333333333,
+   "max_s": 0.0833333358168602,
+   "max_abs_deviation": 0.0
+  },
+  "16": {
+   "uniform_score": 0.0625,
+   "max_s": 0.0625,
+   "max_abs_deviation": 0.0
+  },
+  "20": {
+   "uniform_score": 0.05,
+   "max_s": 0.05000000447034836,
+   "max_abs_deviation": 3.725290298461914e-09
+  },
+  "24": {
+   "uniform_score": 0.041666666666666664,
+   "max_s": 0.0416666679084301,
+   "max_abs_deviation": 0.0
+  }
+ }
+}

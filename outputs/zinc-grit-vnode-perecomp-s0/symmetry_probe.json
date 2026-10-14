@@ -1,0 +1,48 @@
+{
+ "run_dir": "outputs/zinc-grit-vnode-perecomp-s0",
+ "pe_type": "rrwp",
+ "vnode": true,
+ "vnode_pe_mode": "recomputed",
+ "sizes": {
+  "8": {
+   "has_vnode": true,
+   "uniform_score": 0.1111111111111111,
+   "max_s": 0.8257858753204346,
+   "max_abs_deviation": 1.564621925354004e-07,
+   "s_vnode": 0.8257858753204346,
+   "real_max_s": 0.1248098760843277
+  },
+  "12": {
+   "has_vnode": true,
+   "uniform_score": 0.07692307692307693,
+   "max_s": 0.7100487947463989,
+   "max_abs_deviation": 1.7136335372924805e-07,
+   "s_vnode": 0.7100487947463989,
+   "real_max_s": 0.0832064226269722
+  },
+  "16": {
+   "has_vnode": true,
+   "uniform_score": 0.058823529411764705,
+   "max_s": 0.6900898218154907,
+   "max_abs_deviation": 2.2724270820617676e-07,
+   "s_vnode": 0.6900898218154907,
+   "real_max_s": 0.06245384365320206
+  },
+  "20": {
+   "has_vnode": true,
+   "uniform_score": 0.047619047619047616,
+   "max_s": 0.7949709296226501,
+   "max_abs_deviation": 9.313225746154785e-08,
+   "s_vnode": 0.7949709296226501,
+   "real_max_s": 0.049972884356975555
+  },
+  "24": {
+   "has_vnode": true,
+   "uniform_score": 0.04,
+   "max_s": 0.5496780276298523,
+   "max_abs_deviation": 2.1792948246002197e-07,
+   "s_vnode": 0.5496780276298523,
+   "real_max_s": 0.04164896905422211
+  }
+ }
+}

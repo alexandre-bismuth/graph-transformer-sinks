@@ -1,0 +1,7 @@
+{
+ "test_loss": 0.2395745109428059,
+ "test_ap": 0.597717450853196,
+ "metric_name": "ap",
+ "n_params": 469018,
+ "ckpt": "best_model.pt"
+}

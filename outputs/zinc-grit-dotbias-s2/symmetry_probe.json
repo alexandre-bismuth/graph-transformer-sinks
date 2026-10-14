@@ -1,0 +1,31 @@
+{
+ "run_dir": "outputs/zinc-grit-dotbias-s2",
+ "pe_type": "rrwp",
+ "sizes": {
+  "8": {
+   "uniform_score": 0.125,
+   "max_s": 0.12506821751594543,
+   "max_abs_deviation": 6.821751594543457e-05
+  },
+  "12": {
+   "uniform_score": 0.08333333333333333,
+   "max_s": 0.08338502049446106,
+   "max_abs_deviation": 5.1684677600860596e-05
+  },
+  "16": {
+   "uniform_score": 0.0625,
+   "max_s": 0.0625152587890625,
+   "max_abs_deviation": 1.52587890625e-05
+  },
+  "20": {
+   "uniform_score": 0.05,
+   "max_s": 0.05002770945429802,
+   "max_abs_deviation": 2.7708709239959717e-05
+  },
+  "24": {
+   "uniform_score": 0.041666666666666664,
+   "max_s": 0.04168521985411644,
+   "max_abs_deviation": 3.8683414459228516e-05
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "run_dir": "outputs/zinc-grit-official-s2",
+ "pe_type": "rrwp",
+ "vnode": false,
+ "vnode_pe_mode": null,
+ "sizes": {
+  "8": {
+   "uniform_score": 0.125,
+   "max_s": 0.12500008940696716,
+   "max_abs_deviation": 8.940696716308594e-08
+  },
+  "12": {
+   "uniform_score": 0.08333333333333333,
+   "max_s": 0.08333338052034378,
+   "max_abs_deviation": 8.940696716308594e-08
+  },
+  "16": {
+   "uniform_score": 0.0625,
+   "max_s": 0.06250015646219254,
+   "max_abs_deviation": 2.0489096641540527e-07
+  },
+  "20": {
+   "uniform_score": 0.05,
+   "max_s": 0.05000016838312149,
+   "max_abs_deviation": 1.6763806343078613e-07
+  },
+  "24": {
+   "uniform_score": 0.041666666666666664,
+   "max_s": 0.04166671633720398,
+   "max_abs_deviation": 8.195638656616211e-08
+  }
+ }
+}

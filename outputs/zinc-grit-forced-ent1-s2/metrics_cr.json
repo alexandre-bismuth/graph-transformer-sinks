@@ -1,0 +1,7 @@
+{
+ "test_loss": 0.07418220591545105,
+ "test_mae": 0.07418220591545105,
+ "metric_name": "mae",
+ "n_params": 514897,
+ "ckpt": "best_model.pt"
+}

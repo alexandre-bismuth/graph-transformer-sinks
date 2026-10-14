@@ -1,0 +1,39 @@
+experiment_id: base
+
+model:
+  hidden_dim: 96
+  num_heads: 4
+  attn_dropout: 0.5
+  dropout: 0.0
+  pool: mean
+
+data:
+  dataset: peptides_func
+  batch_size: 8
+  num_workers: 4
+  root: data
+
+pe:
+  type: rrwp
+  dim: 17
+
+architecture:
+  num_layers: 4
+  task: multilabel_classification
+
+training:
+  epochs: 150
+  warmup_epochs: 5
+  lr: 0.0003
+  weight_decay: 0.0
+  grad_clip: 1.0
+  seed: 0
+  attn_entropy_coef: 0.0
+
+diagnostics:
+  enabled: true
+  max_graphs: 200
+
+logging:
+  wandb_project: grit-attention-sinks
+  save_dir: outputs

@@ -1,0 +1,48 @@
+{
+ "run_dir": "outputs/zinc-gps-vnode-perecomp-s2",
+ "pe_type": "rwse",
+ "vnode": true,
+ "vnode_pe_mode": "recomputed",
+ "sizes": {
+  "8": {
+   "has_vnode": true,
+   "uniform_score": 0.1111111111111111,
+   "max_s": 1.0,
+   "max_abs_deviation": 2.421438694000244e-06,
+   "s_vnode": 1.0,
+   "real_max_s": 0.12500154972076416
+  },
+  "12": {
+   "has_vnode": true,
+   "uniform_score": 0.07692307692307693,
+   "max_s": 0.9999966025352478,
+   "max_abs_deviation": 9.045004844665527e-06,
+   "s_vnode": 0.9999966025352478,
+   "real_max_s": 0.08334238082170486
+  },
+  "16": {
+   "has_vnode": true,
+   "uniform_score": 0.058823529411764705,
+   "max_s": 1.0,
+   "max_abs_deviation": 1.9825994968414307e-05,
+   "s_vnode": 1.0,
+   "real_max_s": 0.0625106692314148
+  },
+  "20": {
+   "has_vnode": true,
+   "uniform_score": 0.047619047619047616,
+   "max_s": 0.9999986290931702,
+   "max_abs_deviation": 1.8887221813201904e-06,
+   "s_vnode": 0.9999986290931702,
+   "real_max_s": 0.050001125782728195
+  },
+  "24": {
+   "has_vnode": true,
+   "uniform_score": 0.04,
+   "max_s": 0.9999778866767883,
+   "max_abs_deviation": 3.080815076828003e-06,
+   "s_vnode": 0.9999778866767883,
+   "real_max_s": 0.04166894778609276
+  }
+ }
+}

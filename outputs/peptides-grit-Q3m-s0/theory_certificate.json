@@ -1,0 +1,63 @@
+{
+ "run_dir": "outputs/peptides-grit-Q3m-s0",
+ "theta": 0.3,
+ "n_graphs": 300,
+ "n_head_instances": 4800,
+ "certified_no_sink_frac": 0.0,
+ "observed_sink_frac": 0.015208333333333334,
+ "locality_bound_violations": 0,
+ "orbit_bound_violations": 0,
+ "max_within_orbit_spread": 0.0,
+ "eps_r_mean": [
+  0.998076277623574,
+  0.9936438610777258,
+  0.9890401825681329,
+  0.9833768789470195
+ ],
+ "eps_r_median": [
+  0.9997607469558716,
+  0.9987210631370544,
+  0.9967151284217834,
+  0.9949097037315369
+ ],
+ "slack_at_argmax_mean": 0.8931502994143875,
+ "slack_at_argmax_median": 0.9185435964743394,
+ "kappa_mean": 0.30990117561188524,
+ "kappa_vs_smax_corr": 0.5198839048887348,
+ "orbit_size_at_argmax_mean": 1.0,
+ "sink_heads_with_orbit_gt3": 0,
+ "certified_frac_by_layer": {
+  "1": 0.0,
+  "2": 0.0,
+  "3": 0.0,
+  "4": 0.0
+ },
+ "smax_mean_by_layer": {
+  "1": 0.006533172650573155,
+  "2": 0.024636945077606165,
+  "3": 0.12747131205163897,
+  "4": 0.06618322773681333
+ },
+ "n_quartile_certified": {
+  "q1": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.9923968819045538,
+   "n_mean": 142.35135135135135
+  },
+  "q2": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.9934887521388666,
+   "n_mean": 157.70422535211267
+  },
+  "q3": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.9940233468543738,
+   "n_mean": 174.2375
+  },
+  "q4": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.9946162654956182,
+   "n_mean": 195.02666666666667
+  }
+ }
+}

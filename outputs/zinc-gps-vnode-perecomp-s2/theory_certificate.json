@@ -1,0 +1,75 @@
+{
+ "run_dir": "outputs/zinc-gps-vnode-perecomp-s2",
+ "theta": 0.3,
+ "n_graphs": 300,
+ "n_head_instances": 12000,
+ "certified_no_sink_frac": 0.0,
+ "observed_sink_frac": 0.38358333333333333,
+ "locality_bound_violations": 0,
+ "orbit_bound_violations": 0,
+ "max_within_orbit_spread": 2.950429916381836e-06,
+ "eps_r_mean": [
+  0.999998798067371,
+  0.9354521805155993,
+  0.0,
+  0.0
+ ],
+ "eps_r_median": [
+  1.0000001192092896,
+  0.9999999403953552,
+  0.0,
+  0.0
+ ],
+ "slack_at_argmax_mean": 0.598237552994649,
+ "slack_at_argmax_median": 0.6550639427370495,
+ "kappa_mean": 0.5113185216132475,
+ "kappa_vs_smax_corr": 0.02899936493486171,
+ "orbit_size_at_argmax_mean": 1.0346666666666666,
+ "sink_heads_with_orbit_gt3": 0,
+ "certified_frac_by_layer": {
+  "1": 0.0,
+  "2": 0.0,
+  "3": 0.0,
+  "4": 0.0,
+  "5": 0.0,
+  "6": 0.0,
+  "7": 0.0,
+  "8": 0.0,
+  "9": 0.0,
+  "10": 0.0
+ },
+ "smax_mean_by_layer": {
+  "1": 0.16524283294565975,
+  "2": 0.18696382608885567,
+  "3": 0.4934082083838681,
+  "4": 0.26277891103799145,
+  "5": 0.33084171241149307,
+  "6": 0.44218995900203784,
+  "7": 0.3264200990833342,
+  "8": 0.34803071776404976,
+  "9": 0.258018794786185,
+  "10": 0.252251945429792
+ },
+ "n_quartile_certified": {
+  "q1": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.8796474112450614,
+   "n_mean": 17.96875
+  },
+  "q2": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.9256679194406422,
+   "n_mean": 22.0
+  },
+  "q3": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.9548329069605076,
+   "n_mean": 24.938271604938272
+  },
+  "q4": {
+   "certified_frac": 0.0,
+   "eps1_mean": 0.970202436629188,
+   "n_mean": 29.29113924050633
+  }
+ }
+}

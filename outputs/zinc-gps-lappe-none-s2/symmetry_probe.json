@@ -1,0 +1,31 @@
+{
+ "run_dir": "outputs/zinc-gps-lappe-none-s2",
+ "pe_type": "lappe",
+ "sizes": {
+  "8": {
+   "uniform_score": 0.125,
+   "max_s": 0.9961101412773132,
+   "max_abs_deviation": 0.8711101412773132
+  },
+  "12": {
+   "uniform_score": 0.08333333333333333,
+   "max_s": 0.9864644408226013,
+   "max_abs_deviation": 0.9031311273574829
+  },
+  "16": {
+   "uniform_score": 0.0625,
+   "max_s": 0.9385765194892883,
+   "max_abs_deviation": 0.8760765194892883
+  },
+  "20": {
+   "uniform_score": 0.05,
+   "max_s": 0.791000247001648,
+   "max_abs_deviation": 0.741000235080719
+  },
+  "24": {
+   "uniform_score": 0.041666666666666664,
+   "max_s": 0.6990926861763,
+   "max_abs_deviation": 0.6574259996414185
+  }
+ }
+}

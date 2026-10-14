@@ -1,0 +1,11 @@
+# Quartile arm matched on training-set size (2023 = number of training graphs in Q4)
+# and on batch size, so all four arms take identical optimizer steps per epoch.
+experiment_id: peptides-grit-Q4m
+
+data:
+  batch_size: 16
+  max_train_graphs: 2023
+  subsample_seed: 0
+  node_count_filter:
+    min_nodes: 204
+    max_nodes: 300

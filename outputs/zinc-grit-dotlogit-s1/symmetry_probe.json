@@ -1,0 +1,33 @@
+{
+ "run_dir": "outputs/zinc-grit-dotlogit-s1",
+ "pe_type": "rrwp",
+ "vnode": false,
+ "vnode_pe_mode": null,
+ "sizes": {
+  "8": {
+   "uniform_score": 0.125,
+   "max_s": 0.125,
+   "max_abs_deviation": 0.0
+  },
+  "12": {
+   "uniform_score": 0.08333333333333333,
+   "max_s": 1.0,
+   "max_abs_deviation": 0.9166666865348816
+  },
+  "16": {
+   "uniform_score": 0.0625,
+   "max_s": 1.0,
+   "max_abs_deviation": 0.9375
+  },
+  "20": {
+   "uniform_score": 0.05,
+   "max_s": 0.19499628245830536,
+   "max_abs_deviation": 0.1449962854385376
+  },
+  "24": {
+   "uniform_score": 0.041666666666666664,
+   "max_s": 1.0,
+   "max_abs_deviation": 0.9583333134651184
+  }
+ }
+}

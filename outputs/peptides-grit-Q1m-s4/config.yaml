@@ -1,0 +1,37 @@
+architecture:
+  num_layers: 4
+  task: multilabel_classification
+data:
+  batch_size: 16
+  dataset: peptides_func
+  max_train_graphs: 2023
+  node_count_filter:
+    max_nodes: 91
+    min_nodes: 0
+  num_workers: 4
+  root: data
+  subsample_seed: 0
+diagnostics:
+  enabled: true
+  max_graphs: 200
+experiment_id: peptides-grit-Q1m-s4
+logging:
+  save_dir: outputs
+  wandb_project: grit-attention-sinks
+model:
+  attn_dropout: 0.5
+  dropout: 0.0
+  hidden_dim: 96
+  num_heads: 4
+  pool: mean
+pe:
+  dim: 17
+  type: rrwp
+training:
+  attn_entropy_coef: 0.0
+  epochs: 150
+  grad_clip: 1.0
+  lr: 0.0003
+  seed: 4
+  warmup_epochs: 5
+  weight_decay: 0.0

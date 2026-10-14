@@ -1,0 +1,39 @@
+architecture:
+  mpnn: gatedgcn
+  num_layers: 10
+  task: regression
+data:
+  batch_size: 32
+  dataset: zinc
+  num_workers: 4
+  root: data
+diagnostics:
+  enabled: true
+  max_graphs: 200
+experiment_id: zinc-gps-gatedgcn-s2
+logging:
+  save_dir: outputs
+  wandb_project: graph-transformer-sinks
+model:
+  attn_dropout: 0.5
+  dropout: 0.0
+  hidden_dim: 64
+  num_heads: 4
+  pool: mean
+pe:
+  dim: 28
+  type: rwse
+training:
+  attn_entropy_coef: 0.0
+  epochs: 1500
+  grad_clip: 1.0
+  lr: 0.001
+  seed: 2
+  warmup_epochs: 50
+  weight_decay: 1.0e-05
+vnode:
+  enabled: false
+  num_edge_types: 4
+  num_node_types: 28
+  vnode_edge_type: 4
+  vnode_node_type: 28

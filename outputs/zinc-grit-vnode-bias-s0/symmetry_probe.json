@@ -1,0 +1,48 @@
+{
+ "run_dir": "outputs/zinc-grit-vnode-bias-s0",
+ "pe_type": "rrwp",
+ "vnode": true,
+ "vnode_pe_mode": "padded",
+ "sizes": {
+  "8": {
+   "has_vnode": true,
+   "uniform_score": 0.1111111111111111,
+   "max_s": 0.1405424177646637,
+   "max_abs_deviation": 1.7881393432617188e-07,
+   "s_vnode": 0.1405424177646637,
+   "real_max_s": 0.12499964237213135
+  },
+  "12": {
+   "has_vnode": true,
+   "uniform_score": 0.07692307692307693,
+   "max_s": 0.18813782930374146,
+   "max_abs_deviation": 2.1606683731079102e-07,
+   "s_vnode": 0.18813782930374146,
+   "real_max_s": 0.08333322405815125
+  },
+  "16": {
+   "has_vnode": true,
+   "uniform_score": 0.058823529411764705,
+   "max_s": 0.3581898808479309,
+   "max_abs_deviation": 9.685754776000977e-08,
+   "s_vnode": 0.3581898808479309,
+   "real_max_s": 0.06249995157122612
+  },
+  "20": {
+   "has_vnode": true,
+   "uniform_score": 0.047619047619047616,
+   "max_s": 0.35308584570884705,
+   "max_abs_deviation": 2.1979212760925293e-07,
+   "s_vnode": 0.35308584570884705,
+   "real_max_s": 0.04999997466802597
+  },
+  "24": {
+   "has_vnode": true,
+   "uniform_score": 0.04,
+   "max_s": 0.35984596610069275,
+   "max_abs_deviation": 1.0058283805847168e-07,
+   "s_vnode": 0.35984596610069275,
+   "real_max_s": 0.041666656732559204
+  }
+ }
+}

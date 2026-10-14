@@ -1,0 +1,36 @@
+architecture:
+  num_layers: 10
+  task: regression
+data:
+  batch_size: 32
+  dataset: zinc
+  num_workers: 4
+  root: data
+diagnostics:
+  enabled: true
+  max_graphs: 200
+experiment_id: zinc-grit-vnode-s0
+logging:
+  save_dir: outputs
+  wandb_project: grit-attention-sinks
+model:
+  attn_dropout: 0.2
+  dropout: 0.0
+  hidden_dim: 64
+  num_heads: 8
+  pool: sum
+pe:
+  dim: 21
+  type: rrwp
+training:
+  attn_entropy_coef: 0.0
+  epochs: 2000
+  grad_clip: 1.0
+  lr: 0.001
+  seed: 0
+  warmup_epochs: 50
+  weight_decay: 1.0e-05
+vnode:
+  enabled: true
+  vnode_edge_type: 4
+  vnode_node_type: 28

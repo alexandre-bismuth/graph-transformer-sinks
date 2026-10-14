@@ -1,0 +1,33 @@
+{
+ "run_dir": "outputs/zinc-grit-noclamp-s0",
+ "pe_type": "rrwp",
+ "vnode": false,
+ "vnode_pe_mode": null,
+ "sizes": {
+  "8": {
+   "uniform_score": 0.125,
+   "max_s": 0.12500028312206268,
+   "max_abs_deviation": 3.0547380447387695e-07
+  },
+  "12": {
+   "uniform_score": 0.08333333333333333,
+   "max_s": 0.08333369344472885,
+   "max_abs_deviation": 3.5762786865234375e-07
+  },
+  "16": {
+   "uniform_score": 0.0625,
+   "max_s": 0.06250005215406418,
+   "max_abs_deviation": 6.332993507385254e-08
+  },
+  "20": {
+   "uniform_score": 0.05,
+   "max_s": 0.050000060349702835,
+   "max_abs_deviation": 5.960464477539063e-08
+  },
+  "24": {
+   "uniform_score": 0.041666666666666664,
+   "max_s": 0.04166673496365547,
+   "max_abs_deviation": 7.450580596923828e-08
+  }
+ }
+}
